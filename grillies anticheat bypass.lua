@@ -1,4 +1,3 @@
-local RS = game:GetService("ReplicatedStorage")
 local players = game:GetService("Players")
 local lp = players.LocalPlayer
 local gmt = getrawmetatable(game)
