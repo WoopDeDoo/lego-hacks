@@ -1,3 +1,4 @@
+--vars
 local rs = game:GetService("ReplicatedStorage")
 local plrs = game:GetService("Players")
 local lp = plrs.LocalPlayer
@@ -16,7 +17,7 @@ function effectNotify(text, emoji, textScaled, length)
 		end
 	end
 	if notifications[1] then
-		if not notifications[1].Title.Text == text then
+		if notifications[1].Title.Text ~= text then
 			local effect = rs.EffectsGui.Burning:Clone()
 			effect.Name = "notification"
 			effect.Parent = pgui.Effects.StatList
