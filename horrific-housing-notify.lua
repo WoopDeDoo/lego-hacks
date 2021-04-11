@@ -27,4 +27,5 @@ while true do
 			gamemode.Text = pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Text
 		end
 	end
+	wait(1)
 end
