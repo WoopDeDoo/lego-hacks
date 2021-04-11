@@ -16,8 +16,8 @@ gamemode.TextColor3 = Color3.new(255, 255, 255)
 gamemode.Name = "gamemode"
 gamemode.Text = "Current game mode: "..pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Text.."."
 pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Changed:Connect(function()
-	if pgui.GameModeInfo.Frame.Frame2.Title.Text ~= "" then
-		gamemode.Text = "Current game mode: "..pgui.GameModeInfo.Frame.Frame2.Title.Text
+	if pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Text ~= "" then
+		gamemode.Text = "Current game mode: "..pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Text
 	end
 end)
 pgui.Message.TextLabel.TextTransparency = 1
