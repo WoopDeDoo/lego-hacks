@@ -22,9 +22,9 @@ pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Changed:Connect(function()
 end)
 pgui.Message.TextLabel.TextTransparency = 1
 while true do
-	if gamemode.Text ~= pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Text then
+	if gamemode.Text ~= "Current game mode: "..pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Text then
 		if pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Text ~= "" then
-			gamemode.Text = pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Text
+			gamemode.Text = "Current game mode: "..pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Text
 		end
 	end
 	wait(1)
