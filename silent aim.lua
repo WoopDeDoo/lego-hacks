@@ -1,3 +1,6 @@
+if game.GameId ~= 286090429 then
+	game.Players.LocalPlayer:kick("use the correct game fucktard")
+end
 -- Gui to Lua
 -- Version: 3.2
 
