@@ -1,3 +1,4 @@
+print("Loading the sus")
 loadstring(game:HttpGet('https://raw.githubusercontent.com/swatTurret/lego-hacks/main/effectNotify.lua'))()
 local plrs = game:GetService("Players")
 local lp = plrs.LocalPlayer
@@ -21,6 +22,7 @@ pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Changed:Connect(function()
 	end
 end)
 pgui.Message.TextLabel.TextTransparency = 1
+print("Loaded the sus!")
 while true do
 	if gamemode.Text ~= "Current game mode: "..pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Text then
 		if pgui:WaitForChild("GameModeInfo").Frame.Frame2.Title.Text ~= "" then
