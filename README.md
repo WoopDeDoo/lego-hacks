@@ -1,4 +1,4 @@
-https://img.shields.io/github/last-commit/swatTurret/lego-hacks/main
+<img src="https://img.shields.io/github/last-commit/swatTurret/lego-hacks/main">
 # lego-hacks
 haha lego hacks go BRRRRRRRRRRRRRRRRRRRRR
 ## what is this shit
