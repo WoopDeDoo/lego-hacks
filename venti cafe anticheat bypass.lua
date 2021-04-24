@@ -9,7 +9,7 @@ gmt.__namecall = newcclosure(function(Self, ...)
     local args = {...}
     local namecallMethod = getnamecallmethod()
     
-    if not checkcaller() and namecallMethod == "kick" then
+    if not checkcaller() and namecallMethod == "kick" or nameCallMethod == "Kick" then
         return nil
     end
 
