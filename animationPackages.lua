@@ -2,7 +2,7 @@
     What is this?
     I waste my time collecting animation IDs so you don't have to 👍 (this isnt complete btw)
 ]]
-local ninja = {
+ninja = {
     run = '656118852',
     walk = '656121766',
     fall = '656115606',
@@ -14,7 +14,7 @@ local ninja = {
     swimIdle = '656121397',
     climb = '656114359',
 }
-local toy = {
+toy = {
     run = '782842708',
     walk = '782843345',
     fall = '782846423',
@@ -26,7 +26,7 @@ local toy = {
     swimIdle = '782845186',
     climb = '782843869',
 }
-local oldSchool = {
+oldSchool = {
     run = '5319844329',
     walk = '5319847204',
     fall = '5319839762',
@@ -38,7 +38,7 @@ local oldSchool = {
     swimIdle = '5319852613',
     climb = '5319816685',
 }
-local zombie = {
+zombie = {
     run = '616163682',
     walk = '616168032',
     fall = '616157476',
@@ -50,7 +50,7 @@ local zombie = {
     swimIdle = '616166655',
     climb = '616156119',
 }
-local bubbly = {
+bubbly = {
     run = '910025107',
     walk = '910034870',
     fall = '910034870',
@@ -62,7 +62,7 @@ local bubbly = {
     swimIdle = '910030921',
     climb = '910030921',
 }
-local mage = {
+mage = {
     run = '707861613',
     walk = '707897309',
     fall = '707829716',
