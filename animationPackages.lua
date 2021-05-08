@@ -73,3 +73,4 @@ local mage = {
     swim = 'rbxassetid://707876443',
     swimIdle = 'rbxassetid://707894699',
 }
+
